@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Helper">
+      <UniqueIdentifier>{896c5592-192a-4048-8b1d-982f9c747156}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code_Class">
+      <UniqueIdentifier>{9779a13f-4739-4a12-b69e-674d21c62dbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code_Class\code_h">
+      <UniqueIdentifier>{4fcfc0f2-75a6-4371-9da9-51d6c6f0c3b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code_Class\cdoe_cpp">
+      <UniqueIdentifier>{9928d3ae-2bb5-48b0-a1a6-32591a7a28b9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ap_code.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="numberSumList.h">
+      <Filter>Code_Class\code_h</Filter>
+    </ClInclude>
+    <ClInclude Include="code_helper.h">
+      <Filter>Helper</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ap_code.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="numberSumList.cpp">
+      <Filter>Code_Class\cdoe_cpp</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
