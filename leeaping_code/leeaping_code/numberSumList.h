@@ -12,4 +12,5 @@ class LCode_NumberSumList
 	~LCode_NumberSumList( );
 
 	LCode_SinglyList *addTowNumbers( LCode_SinglyList *firstNumberList, LCode_SinglyList *secondNumberList );
+	LCode_ListNode* addTowNumbers( LCode_ListNode* l1, LCode_ListNode * 2 );
 };

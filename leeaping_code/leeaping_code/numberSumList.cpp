@@ -11,33 +11,39 @@ LCode_NumberSumList::~LCode_NumberSumList( )
 
 LCode_SinglyList * LCode_NumberSumList::addTowNumbers( LCode_SinglyList * firstNumberList, LCode_SinglyList * secondNumberList )
 {
-	LCode_SinglyList *firstHeard = firstNumberList;
-	LCode_SinglyList *secondHeard = secondNumberList;
+	
+}
 
-	if( firstHeard->value == 0 || secondHeard->value == 0 ||
-		firstHeard == nullptr || secondHeard == nullptr )
+LCode_ListNode * LCode_NumberSumList::addTowNumbers( LCode_ListNode * l1, LCode_ListNode * l2 )
+{
+	LCode_ListNode *head = new LCode_ListNode( 0 );
+	LCode_ListNode *tail = head;
+	int carry = 0;	//进位符
+	while( l1 != nullptr || l2 != nullptr )
 	{
-		return nullptr;
+		int sum = 0;
+		if( l1 != nullptr )
+		{
+			sum += l1->val;
+			l1 = l1->next;
+		}
+
+		if( l2 != nullptr )
+		{
+			sum += l2->val;
+			l2 = l2->next;
+		}
+
+		sum += carry;
+		carry = sum / 10;
+		tail->next = new LCode_ListNode( sum % 10 );
+		tail = tail->next;
 	}
 
-	int setNumber = 0; //进位数字
-	LCode_SinglyList *pHead;
-	while( firstHeard != nullptr || secondHeard != nullptr )
+	if( carry > 0 )
 	{
-		int x = (firstHeard != nullptr) ? firstHeard->value : 0;
-		int y = (secondHeard != nullptr) ? secondHeard->value : 0;
-
-		int sum = x + y + setNumber;
-
-		setNumber = sum % 10;
-
-		firstHeard = (firstHeard != nullptr) ? firstHeard->next : 0;
-		secondHeard = (secondHeard != nullptr) ? secondHeard->next : 0;
-
-		LCode_SinglyList *newHead = new LCode_SinglyList( );
-		newHead->value = sum;
-		pHead->next = newHead;
+		tail->next = new LCode_ListNode( carry );
 	}
 
-	return nullptr;
+	return head->next;
 }

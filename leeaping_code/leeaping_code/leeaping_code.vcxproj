@@ -119,6 +119,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="ap_code.h" />
+    <ClInclude Include="code_headfile.h" />
     <ClInclude Include="code_helper.h" />
     <ClInclude Include="numberSumList.h" />
   </ItemGroup>
