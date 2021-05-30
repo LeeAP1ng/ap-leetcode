@@ -1,17 +1,6 @@
 #pragma once
 
 //Á´±í
-struct LCode_SinglyList
-{
-	LCode_SinglyList *next;
-	int value;
-	LCode_SinglyList( int x )
-	{
-		value = x;
-		next = nullptr;
-	}
-};
-
 struct LCode_ListNode
 {
 	int val;

@@ -121,11 +121,21 @@
     <ClInclude Include="ap_code.h" />
     <ClInclude Include="code_headfile.h" />
     <ClInclude Include="code_helper.h" />
+    <ClInclude Include="findTrueChar.h" />
     <ClInclude Include="numberSumList.h" />
+    <ClInclude Include="reverse.h" />
+    <ClInclude Include="threeSumClosest.h" />
+    <ClInclude Include="topKFrequent.h" />
+    <ClInclude Include="Trainning\raii.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ap_code.cpp" />
+    <ClCompile Include="findTrueChar.cpp" />
     <ClCompile Include="numberSumList.cpp" />
+    <ClCompile Include="reverse.cpp" />
+    <ClCompile Include="threeSumClosest.cpp" />
+    <ClCompile Include="topKFrequent.cpp" />
+    <ClCompile Include="Trainning\raii.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

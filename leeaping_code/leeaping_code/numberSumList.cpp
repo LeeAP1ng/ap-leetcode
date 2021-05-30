@@ -1,4 +1,4 @@
-#include "code_helper.h"
+
 #include "numberSumList.h"
 
 LCode_NumberSumList::LCode_NumberSumList( )
@@ -9,10 +9,6 @@ LCode_NumberSumList::~LCode_NumberSumList( )
 {
 }
 
-LCode_SinglyList * LCode_NumberSumList::addTowNumbers( LCode_SinglyList * firstNumberList, LCode_SinglyList * secondNumberList )
-{
-	
-}
 
 LCode_ListNode * LCode_NumberSumList::addTowNumbers( LCode_ListNode * l1, LCode_ListNode * l2 )
 {

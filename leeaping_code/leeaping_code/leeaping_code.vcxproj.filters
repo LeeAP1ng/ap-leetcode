@@ -25,6 +25,9 @@
     <Filter Include="Code_Class\cdoe_cpp">
       <UniqueIdentifier>{9928d3ae-2bb5-48b0-a1a6-32591a7a28b9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Trainning">
+      <UniqueIdentifier>{829920a9-656a-464f-8fe8-f6e01167a6e0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ap_code.h">
@@ -36,6 +39,24 @@
     <ClInclude Include="code_helper.h">
       <Filter>Helper</Filter>
     </ClInclude>
+    <ClInclude Include="code_headfile.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="reverse.h">
+      <Filter>Code_Class\code_h</Filter>
+    </ClInclude>
+    <ClInclude Include="findTrueChar.h">
+      <Filter>Code_Class\code_h</Filter>
+    </ClInclude>
+    <ClInclude Include="threeSumClosest.h">
+      <Filter>Code_Class\code_h</Filter>
+    </ClInclude>
+    <ClInclude Include="topKFrequent.h">
+      <Filter>Code_Class\code_h</Filter>
+    </ClInclude>
+    <ClInclude Include="Trainning\raii.h">
+      <Filter>Trainning</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ap_code.cpp">
@@ -43,6 +64,21 @@
     </ClCompile>
     <ClCompile Include="numberSumList.cpp">
       <Filter>Code_Class\cdoe_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="reverse.cpp">
+      <Filter>Code_Class\cdoe_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="findTrueChar.cpp">
+      <Filter>Code_Class\cdoe_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="threeSumClosest.cpp">
+      <Filter>Code_Class\cdoe_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="topKFrequent.cpp">
+      <Filter>Code_Class\cdoe_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Trainning\raii.cpp">
+      <Filter>Trainning</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
