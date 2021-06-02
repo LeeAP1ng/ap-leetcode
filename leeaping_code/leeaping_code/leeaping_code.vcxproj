@@ -122,6 +122,7 @@
     <ClInclude Include="code_headfile.h" />
     <ClInclude Include="code_helper.h" />
     <ClInclude Include="findTrueChar.h" />
+    <ClInclude Include="NET\dns.h" />
     <ClInclude Include="numberSumList.h" />
     <ClInclude Include="reverse.h" />
     <ClInclude Include="threeSumClosest.h" />
@@ -131,6 +132,7 @@
   <ItemGroup>
     <ClCompile Include="ap_code.cpp" />
     <ClCompile Include="findTrueChar.cpp" />
+    <ClCompile Include="NET\dns.cpp" />
     <ClCompile Include="numberSumList.cpp" />
     <ClCompile Include="reverse.cpp" />
     <ClCompile Include="threeSumClosest.cpp" />

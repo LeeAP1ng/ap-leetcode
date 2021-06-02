@@ -28,6 +28,9 @@
     <Filter Include="Trainning">
       <UniqueIdentifier>{829920a9-656a-464f-8fe8-f6e01167a6e0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="NET">
+      <UniqueIdentifier>{94d78759-2065-423c-bb4a-81f2c8f2b3fc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ap_code.h">
@@ -57,6 +60,9 @@
     <ClInclude Include="Trainning\raii.h">
       <Filter>Trainning</Filter>
     </ClInclude>
+    <ClInclude Include="NET\dns.h">
+      <Filter>NET</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ap_code.cpp">
@@ -79,6 +85,9 @@
     </ClCompile>
     <ClCompile Include="Trainning\raii.cpp">
       <Filter>Trainning</Filter>
+    </ClCompile>
+    <ClCompile Include="NET\dns.cpp">
+      <Filter>NET</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -118,3 +118,53 @@ char* strcpy( char* dst, const char* src )
 	while( (*dst++ = *src++) != '\0' );
 	return ret;
 }
+
+/*volatile可以理解为“编译器警告指示字”，用于告诉编译器每次取值必须去内存中取变量的值，
+volatile主要是修饰可能被多个线程访问的变量，
+volatile也可以修饰可能被未知因素修改的变量
+*/
+
+
+/*几种排序算法*/
+//二分查找
+int dichotomy( int arr[], int len, int num )
+{
+	int front = 0, end = len, mid = 0;
+	while( front < end )
+	{
+		mid = (front + end) / 2;
+		if( arr[mid] == num )
+		{
+			return mid;
+		}
+		else if( arr[mid] > num )
+		{
+			end = mid - 1;
+		}
+		else if( arr[mid] < num )
+		{
+			front = mid + 1;
+		}
+	}
+	return NULL;
+
+	int front = 0, end = len, mid = 0;
+	while( front < end )
+	{
+		mid = (front + end) / 2;
+		if( arr[mid] == num )
+		{
+			return mid;
+		}
+		else if( arr[num] > num )
+		{
+			end = mid - 1;
+		}
+		else if( arr[mid] < num )
+		{
+			front = mid + 1;
+		}
+	}
+
+	return NULL;
+}
