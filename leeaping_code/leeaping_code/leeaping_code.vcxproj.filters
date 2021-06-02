@@ -22,40 +22,25 @@
     <Filter Include="Code_Class\code_h">
       <UniqueIdentifier>{4fcfc0f2-75a6-4371-9da9-51d6c6f0c3b9}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Code_Class\cdoe_cpp">
-      <UniqueIdentifier>{9928d3ae-2bb5-48b0-a1a6-32591a7a28b9}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Trainning">
       <UniqueIdentifier>{829920a9-656a-464f-8fe8-f6e01167a6e0}</UniqueIdentifier>
     </Filter>
     <Filter Include="NET">
       <UniqueIdentifier>{94d78759-2065-423c-bb4a-81f2c8f2b3fc}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Algorithm">
+      <UniqueIdentifier>{65cfe70e-56cd-4c98-b8d4-a4bd5250887e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code_Class\code_cpp">
+      <UniqueIdentifier>{9928d3ae-2bb5-48b0-a1a6-32591a7a28b9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ap_code.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="numberSumList.h">
-      <Filter>Code_Class\code_h</Filter>
-    </ClInclude>
-    <ClInclude Include="code_helper.h">
-      <Filter>Helper</Filter>
-    </ClInclude>
     <ClInclude Include="code_headfile.h">
       <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="reverse.h">
-      <Filter>Code_Class\code_h</Filter>
-    </ClInclude>
-    <ClInclude Include="findTrueChar.h">
-      <Filter>Code_Class\code_h</Filter>
-    </ClInclude>
-    <ClInclude Include="threeSumClosest.h">
-      <Filter>Code_Class\code_h</Filter>
-    </ClInclude>
-    <ClInclude Include="topKFrequent.h">
-      <Filter>Code_Class\code_h</Filter>
     </ClInclude>
     <ClInclude Include="Trainning\raii.h">
       <Filter>Trainning</Filter>
@@ -63,31 +48,55 @@
     <ClInclude Include="NET\dns.h">
       <Filter>NET</Filter>
     </ClInclude>
+    <ClInclude Include="Algorithm\greedy.h">
+      <Filter>Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="LeeCode\findTrueChar.h">
+      <Filter>Code_Class\code_h</Filter>
+    </ClInclude>
+    <ClInclude Include="LeeCode\numberSumList.h">
+      <Filter>Code_Class\code_h</Filter>
+    </ClInclude>
+    <ClInclude Include="LeeCode\reverse.h">
+      <Filter>Code_Class\code_h</Filter>
+    </ClInclude>
+    <ClInclude Include="LeeCode\threeSumClosest.h">
+      <Filter>Code_Class\code_h</Filter>
+    </ClInclude>
+    <ClInclude Include="LeeCode\topKFrequent.h">
+      <Filter>Code_Class\code_h</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper\code_helper.h">
+      <Filter>Helper</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ap_code.cpp">
       <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="numberSumList.cpp">
-      <Filter>Code_Class\cdoe_cpp</Filter>
-    </ClCompile>
-    <ClCompile Include="reverse.cpp">
-      <Filter>Code_Class\cdoe_cpp</Filter>
-    </ClCompile>
-    <ClCompile Include="findTrueChar.cpp">
-      <Filter>Code_Class\cdoe_cpp</Filter>
-    </ClCompile>
-    <ClCompile Include="threeSumClosest.cpp">
-      <Filter>Code_Class\cdoe_cpp</Filter>
-    </ClCompile>
-    <ClCompile Include="topKFrequent.cpp">
-      <Filter>Code_Class\cdoe_cpp</Filter>
     </ClCompile>
     <ClCompile Include="Trainning\raii.cpp">
       <Filter>Trainning</Filter>
     </ClCompile>
     <ClCompile Include="NET\dns.cpp">
       <Filter>NET</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithm\greedy.cpp">
+      <Filter>Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="Code_cpp\findTrueChar.cpp">
+      <Filter>Code_Class\code_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Code_cpp\numberSumList.cpp">
+      <Filter>Code_Class\code_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Code_cpp\reverse.cpp">
+      <Filter>Code_Class\code_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Code_cpp\threeSumClosest.cpp">
+      <Filter>Code_Class\code_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Code_cpp\topKFrequent.cpp">
+      <Filter>Code_Class\code_cpp</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

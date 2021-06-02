@@ -119,7 +119,8 @@ char* strcpy( char* dst, const char* src )
 	return ret;
 }
 
-/*volatile可以理解为“编译器警告指示字”，用于告诉编译器每次取值必须去内存中取变量的值，
+/*
+volatile可以理解为“编译器警告指示字”，用于告诉编译器每次取值必须去内存中取变量的值，
 volatile主要是修饰可能被多个线程访问的变量，
 volatile也可以修饰可能被未知因素修改的变量
 */

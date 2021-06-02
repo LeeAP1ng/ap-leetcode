@@ -118,25 +118,27 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Algorithm\greedy.h" />
     <ClInclude Include="ap_code.h" />
     <ClInclude Include="code_headfile.h" />
-    <ClInclude Include="code_helper.h" />
-    <ClInclude Include="findTrueChar.h" />
+    <ClInclude Include="Helper\code_helper.h" />
+    <ClInclude Include="LeeCode\findTrueChar.h" />
+    <ClInclude Include="LeeCode\numberSumList.h" />
+    <ClInclude Include="LeeCode\reverse.h" />
+    <ClInclude Include="LeeCode\threeSumClosest.h" />
+    <ClInclude Include="LeeCode\topKFrequent.h" />
     <ClInclude Include="NET\dns.h" />
-    <ClInclude Include="numberSumList.h" />
-    <ClInclude Include="reverse.h" />
-    <ClInclude Include="threeSumClosest.h" />
-    <ClInclude Include="topKFrequent.h" />
     <ClInclude Include="Trainning\raii.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Algorithm\greedy.cpp" />
     <ClCompile Include="ap_code.cpp" />
-    <ClCompile Include="findTrueChar.cpp" />
+    <ClCompile Include="Code_cpp\findTrueChar.cpp" />
+    <ClCompile Include="Code_cpp\numberSumList.cpp" />
+    <ClCompile Include="Code_cpp\reverse.cpp" />
+    <ClCompile Include="Code_cpp\threeSumClosest.cpp" />
+    <ClCompile Include="Code_cpp\topKFrequent.cpp" />
     <ClCompile Include="NET\dns.cpp" />
-    <ClCompile Include="numberSumList.cpp" />
-    <ClCompile Include="reverse.cpp" />
-    <ClCompile Include="threeSumClosest.cpp" />
-    <ClCompile Include="topKFrequent.cpp" />
     <ClCompile Include="Trainning\raii.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
